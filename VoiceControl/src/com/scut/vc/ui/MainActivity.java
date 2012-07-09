@@ -145,7 +145,7 @@ public class MainActivity extends Activity implements RecognizerDialogListener,
 		Task task = new Task(Task.SwitchOnDevice, device);
 
 		// Task task = new Task(Task.SetAlarm, "大闹天宫闹钟");
-		Test(task);
+		//Test(task);
 
 		// mDevCon.Release();
 //		ArrayList<AppsManager.Package_Info> appList = new ArrayList<AppsManager.Package_Info>();
@@ -162,7 +162,7 @@ public class MainActivity extends Activity implements RecognizerDialogListener,
 
 
 		// Test(task);
-		// voiceString = "今天下午五点的闹钟";
+		voiceString = "打电话给邱景亮";
 
 	}
 

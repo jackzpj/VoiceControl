@@ -147,7 +147,7 @@ public class SemanticIdentify {
 		}
 		case CALL: {
 
-			System.out.println(strVoice+"jksdlfj");
+			System.out.println(strVoice+"   CALL start");
 			System.out.println(strVoice.length());
 			// 当没有剩余的参数时，即没有任何可判断的数据时，默认打开联系人的程序
 			if (strVoice.length() == 0) {
@@ -265,6 +265,7 @@ public class SemanticIdentify {
 				 * mContact.new ContactPerson( strName, strNum);
 				 * callTarget.add(tempContactPerson);
 				 */
+				System.out.println(strVoice+"   CALL end");
 				task = new Task(Task.CALL, callTarget);
 			}
 
